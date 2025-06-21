@@ -1,6 +1,20 @@
 # Calor vs Humor 
 
-## Intalação
+A base de dados trata de uma pesquisa com o tema *"Calor vs Humor"*, que analisa como a percepção do calor pode influenciar o humor das pessoas.
+
+## Preparando o ambiente de execução
+
+```markdown
+📁 Projeto Ciência de Dados
+├── 📁 src
+│   └── 📁 dataset
+├── 📄 computacao_aplicada.ipynb
+├── 📄 README.md
+└── 📄 requirements.txt
+```
+Como visto no esquema acima, o dataset, em formato *scv*, pode ser encontrado em [./src/dataset](./src/dataset). A execução do arquivo jupyter notebook depende desse arquivo, o que o torna importante na execução. Além deste, pode-se encontrar o arquivo requirements.txt necessário para a instalação de todas as bibliotecas utilizada no projeto.
+
+### Configurando o ambiente de execução
 
 Para configurar o ambiente de execução do código deste repositório, é necessário ter o python na versão igual ou superior a 3.13, além de ter o gerenciador de pacotes do python instalado (pip).
 
