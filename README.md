@@ -34,5 +34,5 @@ Várias análises foram realizadas sob o dataset construído, sendo eles:
 Essa análise usa os dados contidos nas duas colunas: *"Como você se sentiu hoje?"* e *"Você acha que o calor afetou seu humor hoje?"* para verificar se o calor afetou a tomada de decisão da pessoa. Tal pesquisa gerou o seguinte gráfico:
 <div align="center"> 
 <img src="./src/graficos/relacaoDeSentirVsInfluenciaDoCalor.png" alt="grafico que mostra a relação da pessoa de como ela se sentiu no dia e, posteriormente, sua resposta quanto a pergunta sobre o calor ter afetado seu humor."/>
-<p>Figura 1: Relação entre Humor e Influência do Calor, criado por Autores do repositório.</p>
+<p>Figura 1: Relação entre Humor e Influência do Calor, criado pelos Autores do repositório.</p>
 </div>
