@@ -28,7 +28,7 @@ Com o ambiente de execução devidamente configurado, o próximo passo é instal
 
 # Metodologias Utilizadas
 
-1. [Pré-processamento de dados (datageeks)](https://www.datageeks.com.br/pre-processamento-de-dados/): limpando dados ausentes.
+1. [Pré-processamento de dados (datageeks)](https://www.datageeks.com.br/pre-processamento-de-dados/) e tratamento de dados: limpando dados ausentes e tratando os tipos de dados de cada coluna.
 <div align="center"> 
 <img src="./src/tabelas/preprocessamentoDados.png" alt="tabela que mostra que o dataset não tem dados faltantes ou nulos."/>
 <p>Figura 1: Resultado do pré processamento de dados</p>
@@ -88,3 +88,24 @@ Esse estudo é importante para descobrir se a temperatura afeta negativamente o 
 </div>
 
 Com as 3 imagens dá para notar que as pessoas não deixam de fazer suas atividades cotidianas devido ao calor, mesmo ele influênciando seu humor.
+
+## Análise exploratória com foco na temperatura
+
+Não houve sérias mudanças climáticas nos dias em que os participantes responderam o questionário. Tal afirmação pode ser comprovada na figura 7 que mostrar a temperatura, em °C, nos dias que foi registrado ao menos uma resposta.
+
+<div align="center"> 
+<img src="./src/graficos/variacao_temperatura_nos_dias_registrados_min_max.png" alt="grafico que mostra a variação da temperatura Min e Max, em °C, nos dias em que houve o registro de ao menos uma resposta."/>
+<p>Figura 7: Variação da Temperatura, min e max, nos dias que houve o registro de ao menos uma resposta.</p>
+</div>
+
+A figura 8 é resultado do redirecionamento do estudo para as pessoas que responderam o formulário e analisando a nota que elas deram para a temperatuda do dia. Tais dados são melhores vistos na figura 9 que mostrar a distribuição de notas do calor.
+
+<div align="center"> 
+<img src="./src/tabelas/dados_capturados_da_distribuicao_De_temperatura.png" alt="Tabela que mostra resultados retirados da análise de dados sobre a distribuição da nota de calor."/>
+<p>Figura 8: Resultados retirados da análise dos dados vista na figura 9</p>
+</div>
+
+<div align="center"> 
+<img src="./src/graficos/distribuicao_da_nota_do_calor.png" alt="gráfico que mostra a distribuição da nota do calor."/>
+<p>Figura 9: Distribuição da nota do calor</p>
+</div>
