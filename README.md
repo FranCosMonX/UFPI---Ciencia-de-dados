@@ -109,3 +109,10 @@ A figura 8 é resultado do redirecionamento do estudo para as pessoas que respon
 <img src="./src/graficos/distribuicao_da_nota_do_calor.png" alt="gráfico que mostra a distribuição da nota do calor."/>
 <p>Figura 9: Distribuição da nota do calor</p>
 </div>
+
+<div align="center"> 
+<img src="./src/graficos/boxplot_das_temperaturas.png" alt="gráfico que mostra a distribuição da nota do calor."/>
+<p>Figura 10: Boxplot das temperaturas</p>
+</div>
+
+O gráfico, visto na figura 10, mostra que a temperatura estava estável, ou seja, não alternou muito durante os dias em que foram registrado respostas no formulário. A temperatura máxima gira em torno de 33 a 34°C com mediana próxima de 22,5°C enquanto a temperatura minima gira em torno de 24 a 25°C com mediana em torno de 24,5°C.
