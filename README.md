@@ -78,8 +78,8 @@ Esse estudo é importante para descobrir se a temperatura afeta negativamente o 
 </div>
 
 <div align="center"> 
-<img src="./src/graficos/distribuicao_resposta_2.png" alt="grafico que mostra a relação de pessoas que sairam ou não de suas casas no dia em que responderam o formulário"/>
-<p>Figura 5: Relação entre as pessoas que sairam e que não sairam de casa</p>
+<img src="./src/graficos/resposta_questao_9.png" alt="grafico que mostra a frequencia com que as pessoas responderam sobre a influência do calor afetando seu humor"/>
+<p>Figura 5: Como o calor afetou o humor das pessoas de Teresina.</p>
 </div>
 
 <div align="center"> 
@@ -87,32 +87,46 @@ Esse estudo é importante para descobrir se a temperatura afeta negativamente o 
 <p>Figura 6: Influência do calor sob o humor</p>
 </div>
 
-Com as 3 imagens dá para notar que as pessoas não deixam de fazer suas atividades cotidianas devido ao calor, mesmo ele influênciando seu humor.
+Com as 3 imagens dá para notar que de fato o calor pode ter influênciado o humor das pessoas. Isso porque uma grande quantidade de pessoas, que se sentiram "mal", "muito mal" ou "neutro", afirmaram que o calor afetou seu humor, não importando se muito ou pouco. Além disso, pode-se notar que poucas pessoas, que afirmam gostar de calor, estão dentro da categoria "bem" e "muito bem".
+
+Este dataset pode ser usado, também, para alimentar aplicações focadas em prevêr e evitar acidentes de trânsito. Se for analisado o temperamento das pessoas com base no calor, quantas pessoas saem de casa se sentindo mal (de forma genérica)?
+
+<div align="center"> 
+<img src="./src/graficos/distribuicao_resposta_2.png" alt="grafico que mostra a entre as pessoas que saem ou não de casa"/>
+<p>Figura 7: Relação entre as pessoas que saem ou não de casa.</p>
+</div>
+
+<div align="center"> 
+<img src="./src/graficos/influencia_calor_Decisao_do_cotidiano.png" alt="grafico que mostra a decisão das pessoas a sairem de caso mesmo se sentindo mal."/>
+<p>Figura 8: Relação entre as pessoas que saem ou não de casa ao se sentir bem ou mal.</p>
+</div>
+
+Analisando os gráficos da figura 4 e 7, que resultaram no gráfico 8, pode ser afirmado, com precisão, que as pessoas não deixam de ir para seus compromissoes mesmo estando se sentindo mal. Em contra partida, elas podem cometer erros no caminho até seu destino. Isso pode ser visto no cotidiano, principalmente no trânsito, quando as pessoas deixam de respeitar as leis de trânsito ao ultrapassar sinais vermelhos, subir canteiros, desrespeitar pedrestes, movimentar-se nas ruas sem sinalizar etc.
 
 ## Análise exploratória com foco na temperatura
 
-Não houve sérias mudanças climáticas nos dias em que os participantes responderam o questionário. Tal afirmação pode ser comprovada na figura 7 que mostrar a temperatura, em °C, nos dias que foi registrado ao menos uma resposta.
+Não houve sérias mudanças climáticas nos dias em que os participantes responderam o questionário. Tal afirmação pode ser comprovada na figura 9 que mostrar a temperatura, em °C, nos dias que foi registrado ao menos uma resposta.
 
 <div align="center"> 
 <img src="./src/graficos/variacao_temperatura_nos_dias_registrados_min_max.png" alt="grafico que mostra a variação da temperatura Min e Max, em °C, nos dias em que houve o registro de ao menos uma resposta."/>
-<p>Figura 7: Variação da Temperatura, min e max, nos dias que houve o registro de ao menos uma resposta.</p>
+<p>Figura 9: Variação da Temperatura, min e max, nos dias que houve o registro de ao menos uma resposta.</p>
 </div>
 
-A figura 8 é resultado do redirecionamento do estudo para as pessoas que responderam o formulário e analisando a nota que elas deram para a temperatuda do dia. Tais dados são melhores vistos na figura 9 que mostrar a distribuição de notas do calor.
+A figura 10 é resultado do redirecionamento do estudo para as pessoas que responderam o formulário e analisando a nota que elas deram para a temperatuda do dia. Tais dados são melhores vistos na figura11 que mostrar a distribuição de notas do calor.
 
 <div align="center"> 
 <img src="./src/tabelas/dados_capturados_da_distribuicao_De_temperatura.png" alt="Tabela que mostra resultados retirados da análise de dados sobre a distribuição da nota de calor."/>
-<p>Figura 8: Resultados retirados da análise dos dados vista na figura 9</p>
+<p>Figura 10: Resultados retirados da análise dos dados vista na figura 9</p>
 </div>
 
 <div align="center"> 
 <img src="./src/graficos/distribuicao_da_nota_do_calor.png" alt="gráfico que mostra a distribuição da nota do calor."/>
-<p>Figura 9: Distribuição da nota do calor</p>
+<p>Figura 11: Distribuição da nota do calor</p>
 </div>
 
 <div align="center"> 
 <img src="./src/graficos/boxplot_das_temperaturas.png" alt="gráfico que mostra a distribuição da nota do calor."/>
-<p>Figura 10: Boxplot das temperaturas</p>
+<p>Figura 12: Boxplot das temperaturas</p>
 </div>
 
-O gráfico, visto na figura 10, mostra que a temperatura estava estável, ou seja, não alternou muito durante os dias em que foram registrado respostas no formulário. A temperatura máxima gira em torno de 33 a 34°C com mediana próxima de 22,5°C enquanto a temperatura minima gira em torno de 24 a 25°C com mediana em torno de 24,5°C.
+O gráfico, visto na figura 12, mostra que a temperatura estava estável, ou seja, não alternou muito durante os dias em que foram registrado respostas no formulário. A temperatura máxima gira em torno de 33 a 34°C com mediana próxima de 22,5°C enquanto a temperatura minima gira em torno de 24 a 25°C com mediana em torno de 24,5°C.
