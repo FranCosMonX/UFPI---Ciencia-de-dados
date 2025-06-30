@@ -1,20 +1,21 @@
-# Calor vs Humor 
+# Calor vs Humor
 
-A base de dados trata de uma pesquisa com o tema *"Calor vs Humor"*, que analisa como a percepção do calor pode influenciar o humor das pessoas.
+A base de dados trata de uma pesquisa com o tema _"Calor vs Humor"_, que analisa como a percepção do calor pode influenciar o humor das pessoas.
 
 ## Preparando o ambiente de execução
 
 ```markdown
 📁 Projeto Ciência de Dados
 ├── 📁 src
-│   └── 📁 dataset
-|   └── 📁 graficos
-|   └── 📁 tabelas
+│ └── 📁 dataset
+| └── 📁 graficos
+| └── 📁 tabelas
 ├── 📄 computacao_aplicada.ipynb
 ├── 📄 README.md
 └── 📄 requirements.txt
 ```
-Como visto no esquema acima, o dataset, em formato *"csv"*, pode ser encontrado em [./src/dataset](./src/dataset). Os gráficos vistos neste README são carregados automaticamente após executar o arquivo *"computacao_Aplicada.ipynb"* e estes podem ser encontrados em [./src/graficos](./src/graficos/). A pasta *"tabelas"* não é atualizada após a execução do arquivo. A execução do arquivo jupyter notebook depende desse arquivo, o que o torna importante na execução. Além deste, pode-se encontrar o arquivo *"requirements.txt"* necessário para a instalação de todas as bibliotecas utilizada no projeto.
+
+Como visto no esquema acima, o dataset, em formato _"csv"_, pode ser encontrado em [./src/dataset](./src/dataset). Os gráficos vistos neste README são carregados automaticamente após executar o arquivo _"computacao_Aplicada.ipynb"_ e estes podem ser encontrados em [./src/graficos](./src/graficos/). A pasta _"tabelas"_ não é atualizada após a execução do arquivo. A execução do arquivo jupyter notebook depende desse arquivo, o que o torna importante na execução. Além deste, pode-se encontrar o arquivo _"requirements.txt"_ necessário para a instalação de todas as bibliotecas utilizada no projeto.
 
 ### Configurando o ambiente de execução
 
@@ -57,6 +58,7 @@ Antes de começar a analisar as respostas, vale a pena analisar a frequencia com
 ## Sobre o Formulário
 
 O formulario (Google Forms) tinha 10 questões objetivas. Este foi amplamente divulgado em grupos de alunos, eventos vinculados à UFPI e, também, em redes de contatos pessoais dos participantes. Como resultado, foi gerado um dataset de 132 respostas com 11 colunas (a data em que a pessoa respondeu o questionário e as questões). Posteriormente foi acrescentado as colunas de Temperatura Minima e Máxima em °C. Tais perguntas são:
+
 1. Como você se sentiu hoje?
 2. Você saiu de casa hoje?
 3. Se sim, em qual período?
@@ -130,3 +132,10 @@ A figura 10 é resultado do redirecionamento do estudo para as pessoas que respo
 </div>
 
 O gráfico, visto na figura 12, mostra que a temperatura estava estável, ou seja, não alternou muito durante os dias em que foram registrado respostas no formulário. A temperatura máxima gira em torno de 33 a 34°C com mediana próxima de 22,5°C enquanto a temperatura minima gira em torno de 24 a 25°C com mediana em torno de 24,5°C.
+
+<div align="center"> 
+<img src="./src/graficos/mapa_de_calor_correlaçao.png" alt="gráfico que mostra a distribuição da nota do calor."/>
+<p>Figura 13: Mapa de calor correção entre Temperatura e Nota de Calor</p>
+</div>
+
+Neste mapa de calor, visualizamos a correlação entre a nota do calor, a temperatura máxima e a temperatura mínima. A intensidade da cor indica a força e a direção da relação. Podemos observar, por exemplo, que há uma correlação positiva entre a nota do calor e a temperatura máxima, e uma correlação negativa entre a nota do calor e a temperatura mínima. Além disso, as temperaturas máxima e mínima têm uma alta correlação positiva entre si.
