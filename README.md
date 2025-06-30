@@ -134,8 +134,22 @@ A figura 10 é resultado do redirecionamento do estudo para as pessoas que respo
 O gráfico, visto na figura 12, mostra que a temperatura estava estável, ou seja, não alternou muito durante os dias em que foram registrado respostas no formulário. A temperatura máxima gira em torno de 33 a 34°C com mediana próxima de 22,5°C enquanto a temperatura minima gira em torno de 24 a 25°C com mediana em torno de 24,5°C.
 
 <div align="center"> 
-<img src="./src/graficos/mapa_de_calor_correlaçao.png" alt="gráfico que mostra a distribuição da nota do calor."/>
+<img src="./src/graficos/mapa_de_calor_correlaçao.png" alt="gráfico que mostra a correlação entre temperatura e nota de calor."/>
 <p>Figura 13: Mapa de calor correção entre Temperatura e Nota de Calor</p>
 </div>
 
 Neste mapa de calor, visualizamos a correlação entre a nota do calor, a temperatura máxima e a temperatura mínima. A intensidade da cor indica a força e a direção da relação. Podemos observar, por exemplo, que há uma correlação positiva entre a nota do calor e a temperatura máxima, e uma correlação negativa entre a nota do calor e a temperatura mínima. Além disso, as temperaturas máxima e mínima têm uma alta correlação positiva entre si.
+
+<div align="center"> 
+<img src="./src/graficos/grafico_erro_medio.png" alt="gráfico que mostra o erro médio absoluto entre os modelos."/>
+<p>Figura 14: Gráfico de Erro Médio Absoluto (MAE) </p>
+</div>
+
+Os modelos foram comparados usando o Erro Médio Absoluto (MAE). O MAE indica a média das diferenças absolutas entre os valores previstos e os valores reais. Um MAE menor indica um melhor desempenho. Podemos observar que ambos os modelos apresentaram valores de MAE bastante próximos, sugerindo uma performance similar em termos de erro absoluto.
+
+<div align="center"> 
+<img src="./src/graficos/grafico_coeficiente_determinacao.png" alt="gráfico que mostra o coeficiente de determinação."/>
+<p>Figura 15: Gráfico com o Coeficiente de Determinação (R²)</p>
+</div>
+
+Por fim, comparamos os modelos utilizando o Coeficiente de Determinação (R²). O R² mede a proporção da variância na variável dependente que é previsível a partir das variáveis independentes. Valores de R² próximos de 1 indicam que o modelo explica bem a variabilidade dos dados. Neste caso, os valores de R² são negativos e baixos para ambos os modelos, sugerindo que nenhum deles foi capaz de explicar de forma significativa a variância da nota de calor com base nas variáveis utilizadas.
